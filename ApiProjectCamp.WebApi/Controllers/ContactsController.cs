@@ -8,11 +8,11 @@ namespace ApiProjectCamp.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ContactsControler : ControllerBase
+    public class ContactsController : ControllerBase
     {
         private readonly ApiContext _context;
 
-        public ContactsControler(ApiContext context)
+        public ContactsController(ApiContext context)
         {
             _context = context;
         }
